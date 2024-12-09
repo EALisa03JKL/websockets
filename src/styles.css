@@ -1,1 +1,14 @@
-/* You can add global styles to this file, and also import other style files */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+#head{
+    height: 50px;
+}
+
+#conversation{
+    overflow: scroll;
+    height: calc(100vh - 120px);
+}
+
+#reply{
+    height: 70px;
+}
